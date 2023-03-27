@@ -1,0 +1,84 @@
+{
+    "catchAll": {
+        "phrases": []
+    },
+    "speechNotRecognized": {
+        "phrases": []
+    },
+    "fulfillment": {
+        "settings": {
+            "default": {
+                "url": ""
+            },
+            "channels": []
+        },
+        "actions": [
+            {
+                "state": "/newNode_14",
+                "action": "well",
+                "color": "#9fd356"
+            },
+            {
+                "state": "/newNode_115",
+                "action": "geo yandex"
+            },
+            {
+                "state": "/newNode_121",
+                "action": "ip-api"
+            },
+            {
+                "state": "/newNode_39",
+                "action": "Насос",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_40",
+                "action": "Ручки",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_47",
+                "action": "Муфта",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_61",
+                "action": "Stab",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_74",
+                "action": "Форум",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_78",
+                "action": "Пика",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_94",
+                "action": "Swell",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_63",
+                "action": "Фильтр",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_65",
+                "action": "ПНД",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_135",
+                "action": "iPhone",
+                "color": "#ef767a"
+            }
+        ]
+    },
+    "tariffLimit": {
+        "phrases": []
+    }
+}

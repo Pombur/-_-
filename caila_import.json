@@ -1,0 +1,540 @@
+{
+  "project" : {
+    "id" : "test-1000028281-luD",
+    "name" : "test-1000028281-luD",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "extendedSettings" : {
+      "tokenizerEngine" : "mystem",
+      "allowedPatterns" : [ "agree", "disagree", "bad", "bot", "bye", "cannot", "clever", "compliment", "dontKnow", "gender", "good", "hello", "looser", "maybe", "me", "my", "need", "normal", "notNow", "now", "pls", "serviceHelperHuman", "stupid", "super", "sure", "thanks", "turnOff", "turnOn", "what", "why", "email", "smth", "obsceneWord", "continue", "shutUp", "stopGame", "stopGameStrong", "stopGameWeak" ],
+      "useShared" : true,
+      "zflPatternsEnabled" : true
+    },
+    "shared" : false
+  },
+  "intents" : [ {
+    "path" : "/newNode_29/1",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* привет *", "Привет *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/2",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* бот *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/3",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "cенсей"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* сенсей", "сенсей *", "* сен *", "Сен сей *", "* Сен сей *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/4",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "водомерк* *", "* водомерк* *", "* приложение *", "приложение *", "* приложение" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/5",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "ручки *", "* ручки *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/6",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "какой насос *", "* какой насос *", "* где насос *", "где насос *", "[купить насос]", "* Валер*", "* Валер* *", "Валер*", "Валер* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/7",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "пятница *", "* пянтниц* *", "* пянтниц*", "* пянтница *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/8",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "алкаш *", "* алкаш* *", "* алкаш *", "* Алкоголик *", "* Алкоголик* *", "Алкоголик *", "Алкоголик* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/9",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* поворотная муфта *", "Муфта поворотная *", "* поворотную муфту *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/10",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "{первая скважина *}", "* первая скважина *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/11",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "Удачи *", "* удачи *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/12",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "Заебумба", "* заебумба *", "* заебумб* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/13",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* на хуй *", "хуй*", "* хуй* *", "* хуя *", "* хуйня *", "* нахуй *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/14",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* заебал* *", "* заебал *", "*еби", "* еби* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/15",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "жалоба"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/16",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* пизд* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/17",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "карт*" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/18",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "Я больше не матерюсь*" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/19",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "STAB-A"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "стаб*", "stab*", "стабилизатор*" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/20",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "{тамбовский фильтр *}", "фильтр*" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/21",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* Заебись *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/23",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* Буровой дед", "Буровой дед*", "* Буровой дед* *", "Бурово* дед*", "* Бурово* дед*", "* Бурово* дед* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/24",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "пнд труб* *", "* пнд труб*", "* пнд труб* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/25",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* Наливай", "Наливай *", "* ~Наливай *", "* Налей *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/26",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "{Спасибо дед* *}" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/27",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "Бассейн *", "* бассейн* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/28",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* Форум", "Форум *", "* форум* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/29",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "Курилка *", "* курилка", "* курилк* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/30",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "Флудилка *", "* Флуд", "* Флуд* *" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/31",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Пика"
+    }, {
+      "text" : "наконечник"
+    }, {
+      "text" : "забурник"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[Бур]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/32",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "* комрад*" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/33",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[Дед]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/34",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[ID]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/35",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[Хочу абиссинку]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/36",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[Swell]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/37",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[time]", "*[сколько время]", "[Дед, сколько время?]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/38",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[iphone]", "[айфон]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/39",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[geo]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/40",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[На троих]" ],
+    "priority" : 0
+  }, {
+    "path" : "/newNode_29/41",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ "[где я]" ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "mystem.geo",
+    "enabled" : false
+  }, {
+    "name" : "mystem.persn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.obsc",
+    "enabled" : false
+  }, {
+    "name" : "mystem.patrn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.famn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.romn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.latn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.numb",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.intg",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.abbr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.name",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.surn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.patr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.geox",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.orgn",
+    "enabled" : false
+  }, {
+    "name" : "duckling.number",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.date",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.email",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.url",
+    "version" : "v1",
+    "enabled" : false
+  }, {
+    "name" : "duckling.interval",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "mlps-obscene.obscene",
+    "enabled" : false
+  }, {
+    "name" : "zb.datetime",
+    "enabled" : false
+  }, {
+    "name" : "zb.number",
+    "enabled" : false
+  } ],
+  "faq" : [ ]
+}
