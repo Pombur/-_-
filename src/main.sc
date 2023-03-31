@@ -1055,7 +1055,7 @@ theme: /
         buttons:
             {text: "Резерв-1", url: "https://t.me/MyDrillin2gbot"}
         buttons:
-            {text: "Резерв-1", url: "https://t.me/MyDrilling3_bot"}
+            {text: "Резерв-2", url: "https://t.me/MyDrilling3_bot"}
     state: newNode_174
         EndSession:
 
