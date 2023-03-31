@@ -1050,12 +1050,12 @@ theme: /
     state: newNode_148
         a: Заходи в гости.
           a: Заходи в гости.
-        a: Резерв @Well_Drillin2gBot @Well_Drilling3_Bot
         buttons:
             {text: "@Well_DrillingBot", url: "https://t.me/Well_DrillingBot"}
         buttons:
-            {text: "@Well_DrillingBot", url: "https://t.me/Well_DrillingBot"}
-
+            {text: "Резерв-1", url: "https://t.me/MyDrillin2gbot"}
+        buttons:
+            {text: "Резерв-1", url: "https://t.me/MyDrilling3_bot"}
     state: newNode_174
         EndSession:
 
