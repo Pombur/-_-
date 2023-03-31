@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "test-1000028281-luD",
-    "name" : "test-1000028281-luD",
+    "id" : "burovoj_ded-1000028281-Gvh",
+    "name" : "burovoj_ded-1000028281-Gvh",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -15,7 +15,13 @@
       "useShared" : true,
       "zflPatternsEnabled" : true
     },
-    "shared" : false
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : false,
+      "answerValidationEnabled" : false,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
   },
   "intents" : [ {
     "path" : "/newNode_29/1",
@@ -536,5 +542,6 @@
     "name" : "zb.number",
     "enabled" : false
   } ],
-  "faq" : [ ]
+  "faq" : [ ],
+  "skills" : [ ]
 }
