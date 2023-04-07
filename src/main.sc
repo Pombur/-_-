@@ -653,15 +653,14 @@ theme: /
         go!: /newNode_25
 
     state: newNode_47
-        image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/hjCJykp1GN4hkraG.jpg
+        image: https://drive.google.com/file/d/17TqoF_AKn3ChAPJDeWyoK2B1i5CSTdDK/view?usp=share_link
         random:
-            a:  Поворотную муфту делает
+            a:  Поворотную муфту делают 
+                Степан @stepanolegovich777
                 Дмитрий +79018030933
                 4000руб
-            a:  Поворотную муфту как у Сенсея на видео, делает
-                Дмитрий +79018030933
-                4000руб
-            a:  Поворотная муфта
+            a:  Поворотную муфту как у Сенсея на видео, делают
+                Степан @stepanolegovich777
                 Дмитрий +79018030933
                 4000руб
         # Transition /newNode_48
@@ -1049,13 +1048,10 @@ theme: /
 
     state: newNode_148
         a: Заходи в гости.
-          a: Заходи в гости.
+        a: Резерв @Well_Drillin2gBot @Well_Drilling3_Bot
         buttons:
             {text: "@Well_DrillingBot", url: "https://t.me/Well_DrillingBot"}
-        buttons:
-            {text: "Резерв-1", url: "https://t.me/MyDrillin2gbot"}
-        buttons:
-            {text: "Резерв-2", url: "https://t.me/MyDrilling3_bot"}
+
     state: newNode_174
         EndSession:
 
