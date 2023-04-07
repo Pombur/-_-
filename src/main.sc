@@ -653,10 +653,12 @@ theme: /
         go!: /newNode_25
 
     state: newNode_47
-        image: https://drive.google.com/file/d/17TqoF_AKn3ChAPJDeWyoK2B1i5CSTdDK/view?usp=share_link
+        image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/ddgP9MeQiuuBxOgi.jpg
         random:
-            a:  Поворотную муфту делают 
-                Степан @stepanolegovich777
+            a:  Поворотную муфту делают
+                Степан +79062248126
+                @stepanolegovich777
+                
                 Дмитрий +79018030933
                 4000руб
             a:  Поворотную муфту как у Сенсея на видео, делают
