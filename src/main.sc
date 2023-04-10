@@ -224,6 +224,51 @@ theme: /
 
             go!: /
 
+        state: 42
+            intent!: /newNode_29/42
+
+            go!: /newNode_179
+
+        state: 43
+            intent!: /newNode_29/43
+
+            go!: /newNode_180
+
+        state: 44
+            intent!: /newNode_29/44
+
+            go!: /newNode_181
+
+        state: 45
+            intent!: /newNode_29/45
+
+            go!: /newNode_189
+
+        state: 46
+            intent!: /newNode_29/46
+
+            go!: /newNode_177
+
+        state: 47
+            intent!: /newNode_29/47
+
+            go!: /newNode_177
+
+        state: 48
+            intent!: /newNode_29/48
+
+            go!: /
+
+        state: 49
+            intent!: /newNode_29/49
+
+            go!: /newNode_182
+
+        state: 50
+            intent!: /newNode_29/50
+
+            go!: /newNode_177
+
         state: Fallback
             event: noMatch
             go!: /newNode_25
@@ -656,9 +701,7 @@ theme: /
         image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/ddgP9MeQiuuBxOgi.jpg
         random:
             a:  Поворотную муфту делают
-                Степан +79062248126
-                @stepanolegovich777
-                
+                Степан @stepanolegovich777
                 Дмитрий +79018030933
                 4000руб
             a:  Поворотную муфту как у Сенсея на видео, делают
@@ -1050,11 +1093,73 @@ theme: /
 
     state: newNode_148
         a: Заходи в гости.
-        a: Резерв @Well_Drillin2gBot @Well_Drilling3_Bot
+        a:  Резерв 
+            @Well_Drillin2gBot
+            @Well_Drilling3_Bot || html = "Резерв&nbsp;<br>@Well_Drillin2gBot<br>@Well_Drilling3_Bot", htmlEnabled = true
         buttons:
             {text: "@Well_DrillingBot", url: "https://t.me/Well_DrillingBot"}
 
     state: newNode_174
+        EndSession:
+
+    state: newNode_177
+        image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/VxjHfISjPP7bypC1.jpg
+        a:  16500руб 
+            @stepanolegovich777 || html = "16500руб&nbsp;<br>@stepanolegovich777", htmlEnabled = true
+        go!: /newNode_186
+
+    state: newNode_186
+        EndSession:
+
+    state: newNode_178
+        a:  Степан 
+            @stepanolegovich777 || html = "Степан&nbsp;<br>@stepanolegovich777", htmlEnabled = true
+
+    state: newNode_179
+        image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/Y5OZflhnoP8IXLVj.jpg
+        a:  1900руб
+            @stepanolegovich777 || html = "1900руб<br>@stepanolegovich777", htmlEnabled = true
+        go!: /newNode_184
+
+    state: newNode_184
+        EndSession:
+
+    state: newNode_180
+        image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/jsjh7R2NRhvIQFn7.jpg
+        a:  19600руб
+            @stepanolegovich777 || html = "\n19600руб<br>@stepanolegovich777", htmlEnabled = true
+        go!: /newNode_185
+
+    state: newNode_185
+        EndSession:
+
+    state: newNode_181
+        image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/WGzb6fVa8S3xluxC.jpg
+        a:  15200руб
+            @stepanolegovich777 || html = "15200руб<br>@stepanolegovich777", htmlEnabled = true
+        go!: /newNode_188
+
+    state: newNode_188
+        EndSession:
+
+    state: newNode_182
+        a:  7200руб
+            @stepanolegovich777 || html = "7200руб<br>@stepanolegovich777", htmlEnabled = true
+        image: https://248305.selcdn.ru/zfl_prod/1000028281/261256322/WjnkXF8g9IqIy08M.jpg
+        go!: /newNode_187
+
+    state: newNode_187
+        EndSession:
+
+    state: newNode_183
+        a:  Степан 
+            @stepanolegovich777 || html = "Степан&nbsp;<br>@stepanolegovich777", htmlEnabled = true
+
+    state: newNode_189
+        a: https://vk.link/clubpoleznijkanal
+        go!: /newNode_190
+
+    state: newNode_190
         EndSession:
 
     state: newNode_76
